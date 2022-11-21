@@ -1,0 +1,11 @@
+@host = localhost:8090
+
+// Register User
+DELETE http://{{host}}/api/user/delete HTTP/1.1 HTTP/1.1
+content-type: application/json
+    
+{
+    "username": "kiranay99"
+}
+
+###
